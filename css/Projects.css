@@ -1,0 +1,81 @@
+.grid-wrapper {
+    display: grid;
+  grid-template-columns: auto;
+  row-gap: 20px;
+  background-color: #e6d2a5ff;
+  padding: 10px;
+}
+
+.grid-item {
+    background-color: #52ab90ff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.project-name {
+    display: inline-block;
+    font-size: 30px;
+    font-family:'Retro Computer', sans-serif;
+    margin-left: 30px;
+}
+
+
+
+
+
+.slides-container-2{
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.slider-wrapper-2{
+    position: relative;
+    max-width: 444px;
+    margin: 0 auto;
+}
+
+.slider-2{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.50);
+}
+
+.slider-2 img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav-2 {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav-2 a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #e6d2a5ff;
+    opacity: 75%;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav-2 a:hover{
+    opacity: 100%;
+    background-color: #BA9BBD;
+}
+
+.git-logo img{
+    width: 200px;
+    float: left;
+}

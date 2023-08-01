@@ -17,13 +17,6 @@
     margin-right: 20px;
     
 }
-
-.p{
-
-    
-
-}
-
 .title-text{
     margin-top: 1000px;
     color: #e6d2a5ff;
@@ -32,4 +25,15 @@
     font-weight: 900;
     font-family:'Retro Computer', sans-serif;
 
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
 }
