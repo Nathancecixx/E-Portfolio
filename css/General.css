@@ -1,0 +1,35 @@
+.container{
+
+    background-color: #488282ff;
+
+}
+
+.backdrop{
+
+    background-color: #488282ff;
+    margin: 0;
+
+
+}
+
+.h{
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.p{
+
+    
+
+}
+
+.title-text{
+    margin-top: 1000px;
+    color: #e6d2a5ff;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-family:'Retro Computer', sans-serif;
+
+}
