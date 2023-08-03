@@ -18,13 +18,17 @@
     
 }
 .title-text{
-    margin-top: 1000px;
+    margin-top: 0px;
     color: #e6d2a5ff;
     text-align: center;
     font-size: 100px;
     font-weight: 900;
     font-family:'Retro Computer', sans-serif;
 
+}
+
+.spacer {
+    margin-bottom: 1000px;
 }
 
 .hidden {
