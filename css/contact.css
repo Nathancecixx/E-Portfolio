@@ -1,0 +1,49 @@
+.contact-container {
+    display: block;
+    background-color: #52ab90ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.contact-title {
+    text-align: center;
+    font-family:'Retro Computer', sans-serif;
+    font-size: 50px;
+}
+
+.contact-text {
+    text-align: center;
+    font-family:'Retro Computer', sans-serif;
+}
+
+.contact-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contact-buttons {
+    text-align: center;
+    align-items: center;
+}
+
+.contact-buttons p {
+    color: black;
+    font-family:'Retro Computer', sans-serif;
+}
+
+.contact-buttons-container a {
+    text-decoration: none;
+}
+
+.contact-github-logo {
+    width: 125px;
+}
+
+.contact-gmail-logo {
+    width: 75px;
+}

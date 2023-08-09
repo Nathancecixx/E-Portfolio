@@ -5,11 +5,9 @@
 }
 
 .backdrop{
-
     background-color: #488282ff;
     margin: 0;
-
-
+    scroll-behavior: smooth;
 }
 
 .h{
