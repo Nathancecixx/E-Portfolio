@@ -24,6 +24,7 @@
 }
 
 .card-titles{
+    
     display: inline;
     margin-right: 20px;
     font-family:'Retro Computer', sans-serif;
@@ -48,6 +49,13 @@
 .python-logo{
 
     width: 50px;
+    margin-top: 15px;
+
+}
+
+.html-logo{
+
+    width: 150px;
     margin-top: 15px;
 
 }
